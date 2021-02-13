@@ -17,8 +17,8 @@ rgbKineticSlider = new rgbKineticSlider({
   slideImages: images, // array of images > must be 1920 x 1080
   itemsTitles: texts, // array of titles / subtitles
 
-  backgroundDisplacementSprite: 'img/map-9.jpg', // slide displacement image 
-  cursorDisplacementSprite: 'img/displace-circle.png', // cursor displacement image
+  backgroundDisplacementSprite: 'images/map-9.jpg', // slide displacement image 
+  cursorDisplacementSprite: 'images/displace-circle.png', // cursor displacement image
 
   cursorImgEffect : true, // enable cursor effect
   cursorTextEffect : false, // enable cursor text effect
@@ -35,15 +35,15 @@ rgbKineticSlider = new rgbKineticSlider({
 
   nav: true, // enable navigation
   navElement: '.main-nav', // set nav class
-  
+
   imagesRgbEffect : false, // enable img rgb effect
   imagesRgbIntensity : 0.9, // set img rgb intensity
-  navImagesRgbIntensity : 80, // set img rgb intensity for regular nav 
+  navImagesRgbIntensity : 40, // set img rgb intensity for regular nav 
 
   textsDisplay : true, // show title
   textsSubTitleDisplay : true, // show subtitles
   textsTiltEffect : true, // enable text tilt
-  googleFonts : ['Playfair Display:700', 'Roboto:400'], // select google font to use
+  googleFonts : ['Open Sans:800', 'Open Sans:400'], // select google font to use
   buttonMode : false, // enable button mode for title
   textsRgbEffect : true, // enable text rgb effect
   textsRgbIntensity : 0.03, // set text rgb intensity
@@ -51,12 +51,12 @@ rgbKineticSlider = new rgbKineticSlider({
 
   textTitleColor : 'white', // title color
   textTitleSize : 125, // title size
-  mobileTextTitleSize : 125, // title size
+  mobileTextTitleSize : 55, // title size
   textTitleLetterspacing : 3, // title letterspacing
 
   textSubTitleColor : 'white', // subtitle color ex : 0x000000
   textSubTitleSize : 21, // subtitle size
-  mobileTextSubTitleSize : 21, // mobile subtitle size
+  mobileTextSubTitleSize : 13, // mobile subtitle size
   textSubTitleLetterspacing : 2, // subtitle letter spacing
   textSubTitleOffsetTop : 90, // subtitle offset top
   mobileTextSubTitleOffsetTop : 90, // mobile subtitle offset top
