@@ -19,6 +19,9 @@
 <link rel="stylesheet" href="../css/swiper.min.css">
 <link rel="stylesheet" href="../css/bootstrap.min.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+
 </head>
 <body>
 <div class="preloader">
@@ -132,12 +135,20 @@
 
 
         <div class="col-md-6 wow fadeInUp">
-          <video class="video"  controls src="images/NLETCC/Learn Risk Free Exports.mp4"></video>
+          <video class="video-video video" src="images/NLETCC/Learn Risk Free Exports.mp4"></video>
+            <div class="video-play-button"> 
+              <i class="fas fa-play"></i>
+            </div>
+            <span></span>
         </div>
         <!-- end col-6 -->
 
         <div class="col-md-6 wow fadeInUp">
-          <video class="video"  controls src="images/NLETCC/OFFER.mp4"></video>
+          <video class="video-video video" src="images/NLETCC/OFFER.mp4"></video>
+            <div class="video-play-button"> 
+              <i class="fas fa-play"></i>
+            </div>
+            <span></span>
         </div>
         <!-- end col-6 -->
 
@@ -258,6 +269,16 @@
 <script src='../js/jquery.parallax.min.js'></script>  
 <script src='../js/motion.blur.js'></script>  
 <script src="../js/scripts.js"></script>
+
+<script> 
+  
+  $('.video-video').parent().click(function () {
+if($(this).children(".video-video").get(0).paused){        $(this).children(".video-video").get(0).play();   $(this).children(".video-play-button").fadeOut();
+  }else{       $(this).children(".video-video").get(0).pause();
+$(this).children(".video-play-button").fadeIn();
+  }
+});
+</script>
 
 </body>
 </html>
