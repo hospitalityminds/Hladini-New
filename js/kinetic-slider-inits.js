@@ -1,6 +1,6 @@
 // images setup
 const images = [
-  "images/Slider1_Visualization_Hladini.jpg",
+  "images/Slider1_Visualization_Hladini_2.jpg",
   "images/Slider2_Precision_Hladini.jpg",
   "images/Slider3_Creation_Hladini.jpg",
 ];
